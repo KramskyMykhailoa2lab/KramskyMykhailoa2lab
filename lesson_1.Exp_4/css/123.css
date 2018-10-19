@@ -1,0 +1,16 @@
+#TableClasses, #TableCall{
+  display:none;
+
+}
+td{
+  background-color: red;
+  border-radius: 15px;
+}
+table{
+  border-radius: 20px;
+  border-spacing: 1px;
+  background-color: #A9A9A9;
+}
+th{
+  border-radius: 15px;
+}
