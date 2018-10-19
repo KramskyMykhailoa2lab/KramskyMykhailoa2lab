@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/123.css">
+  </head>
+  <body>
+
+  <table border cellpadding = 5 width=370 bgcolor="silver" align="center">
+
+  <tr>
+  <td>Первый аргумент:</td>
+  <td>
+    <center>
+    <input id="firstNumber" type="text" size="24" maxlength=16 value="">
+    </center>
+    </td>
+  </tr>
+  <tr>
+    <td>Второй аргумент:</td>
+    <td>
+    <center>
+    <input id="secondNumber" type="text" size="24" maxlength=16 value="">
+    </center>
+    </td>
+  </tr>
+  <tr>
+  <td>Результат:</td>
+  <td>
+    <center>
+    <input id="result" type="text" size="24" maxlength=0 disabled>
+    </center>
+  </td>
+  </tr>
+
+  </table>
+  <table border cellpadding = 10 width=350 align="center">
+
+<tr bgcolor="yellow">
+  <td>
+    <center>
+    <input id="btnadd" type="button" value="  +  " onClick="calculate(1)">
+    </center>
+  </td>
+  <td>
+    <center>
+    <input id="btnsub" type="button" value="  -  " onClick="calculate(2)">
+    </center>
+  </td>
+  <td>
+    <center>
+    <input id="btnmul" type="button" value="  *  " onClick="calculate(3)">
+    </center>
+  </td>
+  <td>
+    <center>
+    <input id="btndiv" type="button" value="  /  " onClick="calculate(4)">
+    </center>
+  </td>
+  <td>
+    <center>
+    <input id="squareroot" type="button" value="  √  " onClick="calculate(5)">
+    </center>
+  </td>
+  <td>
+    <center>
+    <input id="factorial" type="button" value="  !  " onClick="calculate(6)">
+    </center>
+  </td>
+</tr>
+
+  </table>
+
+  <script type="text/javascript" src="js/calculate.js">
+
+  </script>
+  </body>
+</html>
