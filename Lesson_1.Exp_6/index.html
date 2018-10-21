@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Квадратное уравнение</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <div align="center">
+    <b>Решение квадратного уравнение: a * x&sup2 + b * x + c = 0</b>
+    <form class="quadraticEquation" action="javascript:quadratic_equation()">
+    a <input type="text" id="arg_a" value="1" size="3">
+    b <input type="text" id="arg_b" value="1" size="3">
+    c <input type="text" id="arg_c" value="1" size="3">
+    <input type="submit" value="Посчитать">
+    <div class="res_input">
+      <label for="x_1">x<sub>1</sub></label>
+      <input type="text" id="x_1" value="" disabled>
+      <label for="x_2">x<sub>2</sub></label>
+      <input type="text" id="x_2" value=""disabled>
+    </div>
+    </form>
+  </div>
+  <script type="text/javascript" src="js/main.js">
+
+  </script>
+  </body>
+</html>
